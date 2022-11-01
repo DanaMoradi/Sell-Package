@@ -1,0 +1,75 @@
+.footer-section p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 12px 0px;
+}
+
+.aboutus-footer {
+    background: #1E88E5;
+}
+
+.connectus-footer {
+    background: #8BC34A;
+}
+
+.sign-footer {
+    background: #E91E63;
+}
+
+.aboutus-text, .connectus-text {
+    font-size: 14px !important;
+    color: #333333 !important;
+    text-align: justify !important;
+    padding: 15px !important;
+}
+
+.copy-right-text {
+    margin: 0;
+    background: #332f2f;
+    border-top: 1px solid #efefef;
+}
+
+.copy-right-text i {
+    vertical-align: -8px;
+    color: #ff0000;
+    font-size: 25px;
+
+}
+
+.custom-footer-row {
+    margin: 0;
+}
+
+
+.phone {
+    float: left;
+}
+
+.connectus-text span {
+    font-size: 14px;
+}
+
+.connectus-text span i {
+    vertical-align: -8px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #02ce00;
+}
+
+.connectus-text > div {
+    margin: 17px 0px;
+}
+
+.connectus-social ul li {
+    float: left;
+}
+
+.connectus-social ul span {
+    padding: 0 5px;
+}
+
+.facebook {
+    padding-left: 0px !important;
+}

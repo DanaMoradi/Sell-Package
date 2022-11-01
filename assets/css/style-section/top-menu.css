@@ -1,0 +1,58 @@
+.social-container {
+    border-bottom: 1px solid #efefef;
+}
+
+.ticker ul li {
+    width: 100%;
+    display: none;
+    padding: 17px 20px;
+}
+
+ul.social-icon {
+    margin: 12px 20px;
+}
+
+ul.social-icon li {
+    padding: 0;
+}
+
+.topbar-link {
+    margin: 15px 0px;
+}
+
+.topbar-link i {
+
+    padding: 0px 4px;
+    vertical-align: -5px;
+    color: #3DAEE1;
+}
+
+.topbar-link a {
+    color: #58535a;
+}
+
+.topbar-link li {
+    font-size: 13px;
+}
+
+.navbar-custom {
+    background-color: #446CB3;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #B5FF00;
+    background-color: transparent;
+    border-bottom: 1px solid #B5FF00;
+
+}

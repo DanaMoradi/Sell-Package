@@ -1,0 +1,161 @@
+
+.profile-content > h3 {
+    border-bottom: 1px solid #efefef;
+    margin: 0;
+    padding: 17px 10px;
+    background: #fbfbfb;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+.profile-img-holder, #profile-course-list, #profile-user-tickets, #profile-user-all-tickets, #profile-user-transaction {
+    padding: 30px;
+}
+
+.profile-img-holder img {
+    box-shadow: 0 0 6px #cccccc;
+    -moz-box-shadow: 0 0 6px #efefef;
+    -webkit-box-shadow: 0 0 6px #efefef;
+    padding: 6px;
+}
+
+.input_container > i {
+    font-size: 30px !important;
+}
+
+.tab-divider {
+    border-right: 1px solid #f1f0f0;
+}
+
+
+#profile-course-list li {
+    padding: 15px 7px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-size: 15px;
+    transition: padding-right .8s;
+}
+
+#profile-course-list li:hover {
+    padding-right: 12px;
+    background-color: #fdfdfd;
+}
+
+#profile-course-list li i {
+    font-size: 34px;
+    margin-left: 10px;
+    vertical-align: -11px;
+    color: #ff9999;
+}
+
+
+#accordion span {
+    color: #333333;
+    margin-left: 12px;
+}
+
+.ticket-detail-wrapper {
+    padding: 10px 20px;
+    position: relative;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+}
+
+.ticket-detail-wrapper img {
+    padding: 2px;
+    border: 2px solid #efefef;
+
+}
+
+.send-answer-ticket {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+
+.ticket-text p {
+    line-height: 35px;
+    padding: 10px 15px;
+    text-align: justify;
+}
+
+
+.ticket-number {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.profile-user-transaction-table tr th {
+    text-align: center;
+}
+
+
+.profile-nav li i {
+    vertical-align: -5px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #03A9F4;
+}
+
+.tabs-left > li.active > a i,
+.tabs-left > li.active > a:focus i {
+    color: #fff !important;
+}
+
+.tabs-left > li.active > a,
+.tabs-left > li.active > a:hover,
+.tabs-left > li.active > a:focus {
+    border-bottom-color: #ddd;
+    border-left-color: transparent;
+    background: #22A7F0 !important;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.tabs-left > li.active > a,
+.tabs-left > li.active > a:focus {
+    color: #fff;
+}
+
+.tabs-left > li.active > a::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #22A7F0;
+    display: block;
+    z-index: 999;
+    width: 0;
+}
+
+.profile-menu {
+    padding: 0;
+}
+
+.tabs-left li {
+    width: 100%;
+}
+
+.tabs-left > li > a:hover, .tabs-left > li > a:focus {
+    border-color: transparent;
+}
+
+.tabs-left > li > a {
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.tabs-left {
+    border-bottom: none;
+}

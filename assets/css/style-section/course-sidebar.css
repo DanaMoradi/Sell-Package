@@ -1,0 +1,132 @@
+
+.section-title h5 {
+    border-bottom: 1px solid #efefef;
+    padding: 14px 0;
+    font-size: 17px;
+    background-color: white;
+    margin: 0;
+    color: #85a266;
+    font-weight: bold;
+}
+
+.course-info {
+    margin: 15px;
+    border: 1px solid #efefef;
+    box-shadow: 1px 1px 2px 0 #efefef;
+    -moz-box-shadow: 1px 1px 2px 0 #efefef;
+    -webkit-box-shadow: 1px 1px 2px 0 #efefef;
+}
+
+.course-thumbnail img {
+    width: 100%;
+}
+
+.course-title {
+    margin: 0;
+    line-height: 42px;
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.course-detail {
+    margin-bottom: 15px;
+}
+
+.course-info-tooltip i {
+    font-size: 30px;
+    color: #b3b3b3;
+}
+
+.course-meta ul {
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.course-meta ul li i {
+    vertical-align: -7px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.more-course a i {
+    vertical-align: -6px;
+    margin-right: 10px;
+}
+
+.vote {
+    margin: 15px;
+}
+
+.label-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.label-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.chekmark {
+    background-color: #cccccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.label-container:hover input ~ .chekmark {
+    background-color: #aaaaaa;
+}
+
+.label-container input:checked ~ .chekmark {
+    background-color: #2196F3;
+}
+
+.chekmark:after {
+    position: absolute;
+    content: "";
+    display: none;
+}
+
+.label-container input:checked ~ .chekmark:after {
+    display: block;
+}
+
+.label-container .chekmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-color: white;
+}
+
+.btn-vote {
+    padding: 10px 0 10px 0;
+}
+
+.tasks-progressbar, .ads {
+    padding-top: 20px;
+}
+.ads img{
+    margin-bottom: 15px;
+}

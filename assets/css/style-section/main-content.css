@@ -1,0 +1,146 @@
+
+.content-header {
+    background: #03A9F4;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 2px #efefef;
+    -webkit-box-shadow: 1px 1px 1px 2px #efefef;
+    -moz-box-shadow: 1px 1px 1px 2px #efefef;
+}
+
+.main-content {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 0 2px #efefef;
+    -webkit-box-shadow: 0 0 0 2px #efefef;
+    -moz-box-shadow: 0 0 0 2px #efefef;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.main-content button, .main-content ul {
+    width: 300px;
+}
+
+.custom-dropdown {
+    margin-bottom: 20px;
+}
+
+.panel-post {
+    position: relative;
+}
+
+.i-date {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: white;
+    color: #797979;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.i-date i {
+    vertical-align: -5px;
+    margin-right: 5px;
+}
+
+.overly {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #008cba;
+    width: 100%;
+    height: 0;
+    opacity: 0.7;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+.panel-post:hover .overly {
+    height: 100%;
+}
+
+.text-expert {
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.post-detail {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+}
+
+.post-detail li i {
+    vertical-align: -5px;
+    margin-left: 7px;
+}
+
+.panel-post img {
+    display: block;
+    width: 100%;
+}
+
+.post-link, .post-like-type {
+    padding: 10px 5px;
+}
+
+.post-type i {
+    vertical-align: -5px;
+    margin-left: 5px;
+}
+
+.post-like-type {
+    border-top: 1px dashed #efefef;
+}
+
+.like-btn, .dislike-btn {
+    float: left;
+    padding: 0 4px;
+}
+
+.like-btn {
+    margin-right: 10px;
+    color: #2a6496;
+}
+
+.dislike-btn {
+    color: #ac2925;
+}
+
+.like-btn i {
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+
+.dislike-btn i {
+    vertical-align: -4px;
+    margin-left: 5px;
+}
+
+.thumb-down {
+    margin-top: 1px;
+}
+
+.all-post {
+    text-align: left;
+    margin: 5px 0 10px 0;
+}
+
+.all-post i {
+    vertical-align: -5px;
+}

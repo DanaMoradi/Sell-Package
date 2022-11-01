@@ -1,0 +1,121 @@
+
+.login-container {
+    min-height: 585px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    padding-right: 40px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 8px;
+    color: #03A9F4;
+    right: 20px;
+    font-size: 30px;
+    z-index: 999;
+}
+
+.forget-password-icon {
+    vertical-align: -5px;
+    color: #03A9F4;
+    font-size: 20px;
+}
+
+
+.google-login {
+    border-top: 1px solid #efefef;
+    margin-top: 35px;
+    padding: 30px 0 15px 0;
+}
+
+.google-plus-btn {
+    background-color: #f32e06;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark-login {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark-login {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark-login {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-login:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark-login:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark-login:after {
+    display: block;
+}
+
+
+label.checkbox-container {
+    margin-right: 10px;
+}
+
+.panel-login-heading, .panel-register-heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: #03A9F4 !important;
+    color: #fff !important;;
+    margin-bottom: 22px;
+}
+
+.panel-register-heading {
+    background: #2ecc71 !important;
+}
+
+
+.input-group-addon {
+    background-color: #cccccc;
+}

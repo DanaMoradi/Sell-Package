@@ -1,0 +1,41 @@
+/*pagination*/
+.page li {
+    display: inherit;
+}
+
+.page li a {
+    border: 1px solid #efefef;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: 18px;
+    padding: 9px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    -moz-box-shadow: 1px 1px 1px 1px #efefef;
+    -webkit-box-shadow: 1px 1px 1px 1px #efefef;
+    transition: background-color .7s;
+}
+
+.page li:hover a {
+    background-color: #03A9F4;
+}
+
+.page li:hover a {
+    color: white;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-right: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}

@@ -1,0 +1,111 @@
+/*main page*/
+@import "style-section/top-menu.css";
+@import "style-section/side-nav.css";
+@import "style-section/hero-header.css";
+@import "style-section/slider-info-section.css";
+@import "style-section/new-random-topic.css";
+@import "style-section/main-content.css";
+@import "style-section/course-sidebar.css";
+@import "style-section/newsletter-section.css";
+@import "style-section/footer.css";
+/*single page*/
+@import "style-section/single-page.css";
+/*all post*/
+@import "style-section/all-post.css";
+/*course*/
+@import "style-section/course.css";
+/*login and registration*/
+@import "style-section/login&registration.css";
+/*profile*/
+@import "style-section/profile.css";
+
+@font-face {
+    font-family: "isans";
+    src: url("../fonts/isans.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/maticons.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'glyphicons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/glyphicons-halflings-regular.woff") format('woff');
+}
+
+*, body {
+    font-family: isans;
+}
+
+body {
+    background: url("../img/bg-pattern.gif") repeat;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+
+
+
+    font-size: 18px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: rtl;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.wrapper-margin-top {
+    margin-top: 20px;
+}
+
+.main-wrapper {
+    background: #ffffff;
+}
+
+.wrapper-free-style {
+    background: white;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 1px 1px 1px 2px #efefef;
+    -webkit-box-shadow: 1px 1px 1px 2px #efefef;
+    -moz-box-shadow: 1px 1px 1px 2px #efefef;
+}
+
+.padding-rest {
+    padding: 0;
+}
